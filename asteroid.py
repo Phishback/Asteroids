@@ -1,7 +1,10 @@
-from circleshape import CircleShape
 import pygame
+import random
+from constants import *
+from circleshape import CircleShape
 
-def Asteroid(CircleShape):
+
+class Asteroid(CircleShape):
     def __init__(self, x, y, radius):
         super().__init__(x, y, radius)
 
